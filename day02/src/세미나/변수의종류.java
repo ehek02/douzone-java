@@ -1,4 +1,4 @@
-package method;
+package 세미나;
 
 public class 변수의종류 {
 

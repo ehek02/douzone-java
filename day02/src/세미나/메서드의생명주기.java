@@ -1,4 +1,4 @@
-package method;
+package 세미나;
 
 public class 메서드의생명주기 {
     void methodA() {
