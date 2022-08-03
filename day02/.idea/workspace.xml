@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73dcf323-81d1-42e2-a88d-db9db10f137d" name="변경" comment="세미나 준비">
-      <change afterPath="$PROJECT_DIR$/src/ex02/App7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="73dcf323-81d1-42e2-a88d-db9db10f137d" name="변경" comment="day2 complete">
+      <change afterPath="$PROJECT_DIR$/../day03/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/day03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/src/ex01/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/세미나/메서드의생명주기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/세미나/메서드의생명주기.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +67,7 @@
       <updated>1659341354124</updated>
       <workItem from="1659341355581" duration="293000" />
       <workItem from="1659402833995" duration="4926000" />
-      <workItem from="1659418841586" duration="1062000" />
+      <workItem from="1659418841586" duration="1856000" />
     </task>
     <task id="LOCAL-00001" summary="세미나 준비">
       <created>1659415394355</created>
@@ -71,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659415394355</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="day2 complete">
+      <created>1659486441940</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659486441940</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +103,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="세미나 준비" />
-    <option name="LAST_COMMIT_MESSAGE" value="세미나 준비" />
+    <MESSAGE value="day2 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="day2 complete" />
   </component>
 </project>
