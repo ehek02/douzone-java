@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a029717-917a-430b-9696-a1bb1cf78e97" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assginment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch01/com/ohgiraffers/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch01/com/ohgiraffers/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch01/com/ohgiraffers/practice1/example/VariablePractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch01/com/ohgiraffers/practice1/run/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch01/com/ohgiraffers/practice2/example/CastingPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch01/com/ohgiraffers/practice2/run/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch02/ohgiraffers/practice/example/OperatorPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch02/ohgiraffers/practice/run/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/src/com/greedy/level01/basic/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch03/basic/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/src/com/greedy/level01/basic/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch03/basic/Calculator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CpxJ6GAwOrX1X4VVVGtZAQaAdk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="모듈" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\whdgu\Desktop\git\ehek02\douzone-java\assginment\src\com\ohgiraffers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.Run (1)">
+    <configuration name="Application1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch01.com.ohgiraffers.Application1" />
+      <module name="assginment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch01.com.ohgiraffers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch01.com.ohgiraffers.Application2" />
+      <module name="assginment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch01.com.ohgiraffers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch02.ohgiraffers.practice.run.Run" />
+      <module name="assginment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch02.ohgiraffers.practice.run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch01.com.ohgiraffers.practice1.run.Run" />
+      <module name="assginment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch01.com.ohgiraffers.practice1.run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch01.com.ohgiraffers.practice2.run.Run" />
+      <module name="assginment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch01.com.ohgiraffers.practice2.run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.Run (1)" />
+        <item itemvalue="애플리케이션.Application2" />
+        <item itemvalue="애플리케이션.Application1" />
+        <item itemvalue="애플리케이션.Run (1)" />
+        <item itemvalue="애플리케이션.Run" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="9a029717-917a-430b-9696-a1bb1cf78e97" name="변경" comment="" />
+      <created>1659513252568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659513252568</updated>
+      <workItem from="1659513253998" duration="6660000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
