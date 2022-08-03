@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a029717-917a-430b-9696-a1bb1cf78e97" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assginment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch01/com/ohgiraffers/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch01/com/ohgiraffers/Application2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch01/com/ohgiraffers/practice1/example/VariablePractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch01/com/ohgiraffers/practice1/run/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch01/com/ohgiraffers/practice2/example/CastingPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch01/com/ohgiraffers/practice2/run/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch02/ohgiraffers/practice/example/OperatorPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch02/ohgiraffers/practice/run/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day03/src/com/greedy/level01/basic/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch03/basic/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day03/src/com/greedy/level01/basic/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch03/basic/Calculator.java" afterDir="false" />
+    <list default="true" id="9a029717-917a-430b-9696-a1bb1cf78e97" name="변경" comment="3장 완료">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,26 +31,44 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GitStage.ChangesTree.GroupingKeys" value="directory&#10;module&#10;repository" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="모듈" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\whdgu\Desktop\git\ehek02\douzone-java\assginment\src\ch05" />
+      <recent name="C:\Users\whdgu\Desktop\git\ehek02\douzone-java\assginment\src\ch04" />
       <recent name="C:\Users\whdgu\Desktop\git\ehek02\douzone-java\assginment\src\com\ohgiraffers" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Run (1)">
+  <component name="RunManager" selected="애플리케이션.Application3 (1)">
     <configuration name="Application1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch01.com.ohgiraffers.Application1" />
+      <option name="MAIN_CLASS_NAME" value="ch05.level02.normal.Application1" />
       <module name="assginment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch01.com.ohgiraffers.*" />
+          <option name="PATTERN" value="ch05.level02.normal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch05.level01.basic.Application2" />
+      <module name="assginment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch05.level01.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,11 +77,11 @@
       </method>
     </configuration>
     <configuration name="Application2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch01.com.ohgiraffers.Application2" />
+      <option name="MAIN_CLASS_NAME" value="ch05.level02.normal.Application2" />
       <module name="assginment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch01.com.ohgiraffers.*" />
+          <option name="PATTERN" value="ch05.level02.normal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02.ohgiraffers.practice.run.Run" />
+    <configuration name="Application3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch05.level02.normal.Application3" />
       <module name="assginment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch02.ohgiraffers.practice.run.*" />
+          <option name="PATTERN" value="ch05.level02.normal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch01.com.ohgiraffers.practice1.run.Run" />
+    <configuration name="Application3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch05.level01.basic.Application3" />
       <module name="assginment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch01.com.ohgiraffers.practice1.run.*" />
+          <option name="PATTERN" value="ch05.level01.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Run (1)" />
+        <item itemvalue="애플리케이션.Application3 (1)" />
         <item itemvalue="애플리케이션.Application2" />
         <item itemvalue="애플리케이션.Application1" />
-        <item itemvalue="애플리케이션.Run (1)" />
-        <item itemvalue="애플리케이션.Run" />
+        <item itemvalue="애플리케이션.Application3" />
+        <item itemvalue="애플리케이션.Application2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -143,8 +146,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659513252568</updated>
-      <workItem from="1659513253998" duration="6660000" />
+      <workItem from="1659513253998" duration="10964000" />
     </task>
+    <task id="LOCAL-00001" summary="3장 완료">
+      <created>1659520333045</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659520333045</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,5 +171,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3장 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="3장 완료" />
   </component>
 </project>
