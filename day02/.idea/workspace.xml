@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73dcf323-81d1-42e2-a88d-db9db10f137d" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/../day01/src/login/Academy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day01/src/login/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day01/src/test/ArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day01/src/test/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/method/메서드의생명주기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/method/변수의종류.java" afterDir="false" />
+    <list default="true" id="73dcf323-81d1-42e2-a88d-db9db10f137d" name="변경" comment="세미나 준비">
+      <change afterPath="$PROJECT_DIR$/src/ex02/App7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex01/App01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/세미나/메서드의생명주기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/세미나/메서드의생명주기.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
   <component name="RunManager">
     <configuration name="Shell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method.Shell" />
+      <option name="MAIN_CLASS_NAME" value="세미나.Shell" />
       <module name="day02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="method.*" />
+          <option name="PATTERN" value="세미나.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,11 +51,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="애플리케이션.method.Shell" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,7 +62,16 @@
       <updated>1659341354124</updated>
       <workItem from="1659341355581" duration="293000" />
       <workItem from="1659402833995" duration="4926000" />
+      <workItem from="1659418841586" duration="1062000" />
     </task>
+    <task id="LOCAL-00001" summary="세미나 준비">
+      <created>1659415394355</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659415394355</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,5 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="세미나 준비" />
+    <option name="LAST_COMMIT_MESSAGE" value="세미나 준비" />
   </component>
 </project>
