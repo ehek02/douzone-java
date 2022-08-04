@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a029717-917a-430b-9696-a1bb1cf78e97" name="변경" comment="3장 완료">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bd700b31bbe55ae0b07a02a5cfc6c620f34a294" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/3066194f7ff3c1bf0ef41b10c457aecb1b5a03e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/374aa61470ce124e7c772a5e31162b64d913976e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/7577e3ce6c7b440038086c9bd538e4b980e59287" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7aeaa2f6cffdfdcc3b0d498d65fc776c25d9038d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab044f8d5eeebe789684ef787752955a62fdd5ab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b2ef05e52878d6786f2ec8f5d123969249cecaa6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day04/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day04/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day04/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day04/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day04/day04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day04/src/array/App04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day04/src/whiletest/ex03/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b925f2a5da7f3d312fb589cd41848cd51bda58c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assginment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/assginment.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="모듈" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -45,18 +64,45 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\whdgu\Desktop\git\ehek02\douzone-java\assginment\src\com\ohgiraffers\day04" />
       <recent name="C:\Users\whdgu\Desktop\git\ehek02\douzone-java\assginment\src\ch05" />
       <recent name="C:\Users\whdgu\Desktop\git\ehek02\douzone-java\assginment\src\ch04" />
       <recent name="C:\Users\whdgu\Desktop\git\ehek02\douzone-java\assginment\src\com\ohgiraffers" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Application3 (1)">
-    <configuration name="Application1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03.ch05.level02.normal.Application1" />
+  <component name="RunManager" selected="애플리케이션.Application2">
+    <configuration name="Application1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.day04.section02.demensional_array.level01.basic.Application1" />
       <module name="assginment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03.ch05.level02.normal.*" />
+          <option name="PATTERN" value="com.ohgiraffers.day04.section02.demensional_array.level01.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application1 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.day04.section01.array.level04.advanced.Application1" />
+      <module name="assginment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.day04.section01.array.level04.advanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.day04.section01.array.level03.hard.Application1" />
+      <module name="assginment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.day04.section01.array.level03.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,11 +111,11 @@
       </method>
     </configuration>
     <configuration name="Application2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03.ch05.level02.normal.Application2" />
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.day04.section01.array.level04.advanced.Application2" />
       <module name="assginment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03.ch05.level02.normal.*" />
+          <option name="PATTERN" value="com.ohgiraffers.day04.section01.array.level04.advanced.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,19 +125,6 @@
     </configuration>
     <configuration name="Application2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day03.ch05.level01.basic.Application2" />
-      <module name="assginment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day03.ch05.level01.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03.ch05.level01.basic.Application3" />
       <module name="assginment" />
       <extension name="coverage">
         <pattern>
@@ -116,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch01.com.ohgiraffers.practice2.run.Run" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.Test" />
       <module name="assginment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch01.com.ohgiraffers.practice2.run.*" />
+          <option name="PATTERN" value="com.ohgiraffers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Application3 (1)" />
         <item itemvalue="애플리케이션.Application2" />
+        <item itemvalue="애플리케이션.Application1 (1)" />
+        <item itemvalue="애플리케이션.Test" />
+        <item itemvalue="애플리케이션.Application1 (3)" />
         <item itemvalue="애플리케이션.Application1" />
-        <item itemvalue="애플리케이션.Application3" />
-        <item itemvalue="애플리케이션.Application2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +181,8 @@
       <option name="presentableId" value="Default" />
       <updated>1659513252568</updated>
       <workItem from="1659513253998" duration="11559000" />
+      <workItem from="1659525156535" duration="164000" />
+      <workItem from="1659598160628" duration="10755000" />
     </task>
     <task id="LOCAL-00001" summary="3장 완료">
       <created>1659520333045</created>
@@ -170,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659524805586</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="08/03 finish !!">
+      <created>1659525173225</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659525173225</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
