@@ -1,5 +1,7 @@
 package com.ohgiraffers.day04.section02.demensional_array.level02.normal;
 
+import java.util.Scanner;
+
 public class Application1 {
 
 	public static void main(String[] args) {
@@ -23,6 +25,28 @@ public class Application1 {
          * W H J X 
          * W S S J 
 		 * */
-		
+
+		Scanner scanner = new Scanner(System.in);
+		char[][] arr;
+
+		System.out.print("가로 행의 수를 입력하세요 : ");
+		int width = scanner.nextInt();
+
+		System.out.print("세로 열의 수를 입력하세요 : ");
+		int height = scanner.nextInt();
+
+		if (width < 1 || width > 10 || height < 1 || height > 10) {
+			System.out.println("반드시 1~10까지의 정수를 입력해야 합니다. 다시 입력하세요.");
+		} else {
+			arr = new char[width][height];
+
+			for (int i = 0; i < arr.length; i++) {
+				for (int j = 0; j < arr[i].length; j++) {
+					arr[i][j] = (char) ((Math.random() * 26) + 65);;
+					System.out.print(arr[i][j] + " ");
+				}
+				System.out.println();
+			}
+		}
 	}
 }

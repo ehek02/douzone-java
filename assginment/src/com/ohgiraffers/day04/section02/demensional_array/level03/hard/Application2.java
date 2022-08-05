@@ -1,4 +1,6 @@
-package com.ohgiraffers.practice.question.section02.demensional_array.level03.hard;
+package com.ohgiraffers.day04.section02.demensional_array.level03.hard;
+
+import java.util.Scanner;
 
 public class Application2 {
 
@@ -19,6 +21,35 @@ public class Application2 {
          * 
          * 단, 홀수를 입력하지 않은 경우 "홀수만 입력해야 합니다." 출력
 		 * */
-		
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("홀수 하나를 입력하세요 : ");
+		int length = scanner.nextInt();
+		if (length % 2 == 0) {
+			System.out.println("홀수만 입력하세요.");
+			return;
+		}
+
+		for (int i = 0; i <= length/2; i++) {
+			for (int j = 0; j < i; j++) {
+				System.out.print(" ");
+			}
+			for (int j = 0; j < length-i*2; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+
+		for (int i = 0; i <= length/2; i++) {
+			for (int j = length / 2 - 1; j >= i; j--) {
+				System.out.print(" ");
+			}
+			for (int j = 0; j <= i * 2; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+
+
+
 	}
 }

@@ -6,7 +6,8 @@ import java.util.Scanner;
 public class Application2 {
 	static int strike = 0;
 	static int ball = 0;
-	static int[] randomArr = new int[4];
+	static final int[] randomArr = new int[4];
+	static int[] compareArr = new int[4];
 	static int checkCount = 4;
 
 	public static void main(String[] args) {
@@ -40,14 +41,21 @@ public class Application2 {
 
 		int chance = 10;
 
-		// 랜덤 숫자 4자리 생성
-		for (int i = 0; i < randomArr.length; i++) {
+		// 난수생성
+		for (int i = 0; i < 4; i++) {
 			randomArr[i] = random.nextInt(9);
-			System.out.print(randomArr[i]); // 랜덤 번호 출력
+
+			// 중복검사
+			for (int j = 0; j < i; j++) {
+				if (randomArr[i] == randomArr[j]) {
+					i--;
+				}
+			}
 		}
 
-		// Test용
-		randomArr = test();
+		for (int param : randomArr) {
+			System.out.print(param); // 랜덤 번호 출력
+		}
 
 		while (chance > 0) {
 			System.out.print("\n"+chance  + "회 남으셨습니다.\n4자리 숫자를 입력하세요 : ");
@@ -66,24 +74,18 @@ public class Application2 {
 			} else {
 				System.out.printf("아쉽네요 %dS %dB 입니다.", strike, ball);
 			}
+			strike = 0;
+			ball = 0;
 			chance--;
 		}
     }
 
-	private static int[] test() {
-		System.out.println("\n↑랜덤숫자\n↓지정숫자");
-		randomArr = new int[] {4, 3, 2, 6};
-		for (int j : randomArr) {
-			System.out.print(j);
-		}
-		return randomArr;
-	}
 
 	private static void ballCheck(int[] inputArr) {
 		for (int i = 0; i < checkCount; i++) {
 
 			for (int j = 0; j < checkCount; j++) {
-				if (randomArr[i] == inputArr[j]) {
+				if (compareArr[i] == inputArr[j]) {
 					ball++;
 					break;  // 랜덤수가 입력받은숫자배열에 2개존재하면 ballCount 가 2번올라감 그래서 끊어줘야함.
 				}
@@ -93,19 +95,19 @@ public class Application2 {
 
 	private static int[] strikeCheck(String input) {
 		int[] inputArr = new int[input.length()];
+		compareArr = randomArr;
 
-		// "4322" => {4,3,2,2}
 		for (int i = 0; i < inputArr.length; i++) {
 			inputArr[i] = input.charAt(i) - '0'; // 문자형 수를 정수형 수로 변환
 		}
-		// idx = 3 , i = checkCount = 4
 
 		for (int i = 0; i < checkCount; i++) {
-			if (randomArr[i] == inputArr[i]) {
+			if (compareArr[i] == inputArr[i]) {
+				inputArr = remove(inputArr, i);
+				compareArr = remove(compareArr, i);
 				strike++;
 				checkCount--;
-				inputArr = remove(inputArr, i);
-				randomArr = remove(randomArr, i);
+				i--;
 			}
 		}
 
