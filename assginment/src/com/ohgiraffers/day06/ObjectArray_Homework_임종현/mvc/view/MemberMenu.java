@@ -196,7 +196,10 @@ public class MemberMenu {
             }
 
             for (Member member : sortMembers) {
-                member.information();
+                if (member == null) {
+                    break;
+                }
+                System.out.println(member.information());
             }
         }
     }

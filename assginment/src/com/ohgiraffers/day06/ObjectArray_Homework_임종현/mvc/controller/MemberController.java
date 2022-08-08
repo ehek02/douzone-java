@@ -1,8 +1,12 @@
 package com.ohgiraffers.day06.ObjectArray_Homework_임종현.mvc.controller;
 
+import com.ohgiraffers.day06.Inherit_Homework_임종현.com.hw1.model.dto.Student;
 import com.ohgiraffers.day06.ObjectArray_Homework_임종현.mvc.model.dto.Member;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class MemberController {
     public static int SIZE = 10;
@@ -147,27 +151,101 @@ public class MemberController {
     public Member[] sortIdAsc() {
         Member[] copy = members.clone();
 
+        for (int i = 0; i < copy.length; i++) {
+            if (copy[i] == null) {
+                break;
+            }
+
+            for (int j = 0; j < i; j++) {
+                if (copy[i].getUserId().compareTo(copy[j].getUserId()) < 0) {
+                    Member temp = copy[i];
+                    copy[i] = copy[j];
+                    copy[j] = temp;
+                }
+            }
+        }
+
         return copy;
     }
 
     public Member[] sortIdDesc() {
+        Member[] copy = members.clone();
 
-        return new Member[0];
+        for (int i = 0; i < copy.length; i++) {
+            if (copy[i] == null) {
+                break;
+            }
+
+            for (int j = 0; j < i; j++) {
+                if (copy[i].getUserId().compareTo(copy[j].getUserId()) > 0) {
+                    Member temp = copy[i];
+                    copy[i] = copy[j];
+                    copy[j] = temp;
+                }
+            }
+        }
+
+        return copy;
     }
 
     public Member[] sortAgeAsc() {
+        Member[] copy = members.clone();
 
-        return new Member[0];
+        for (int i = 0; i < copy.length; i++) {
+            if (copy[i] == null) {
+                break;
+            }
+
+            for (int j = 0; j < i; j++) {
+                if (copy[i].getAge() < copy[j].getAge()) {
+                    Member temp = copy[i];
+                    copy[i] = copy[j];
+                    copy[j] = temp;
+                }
+            }
+        }
+
+        return copy;
     }
 
     public Member[] sortAgeDesc() {
+        Member[] copy = members.clone();
 
-        return new Member[0];
+        for (int i = 0; i < copy.length; i++) {
+            if (copy[i] == null) {
+                break;
+            }
+
+            for (int j = 0; j < i; j++) {
+                if (copy[i].getAge() > copy[j].getAge()) {
+                    Member temp = copy[i];
+                    copy[i] = copy[j];
+                    copy[j] = temp;
+                }
+            }
+        }
+
+        return copy;
     }
 
     public Member[] sortGenderDesc() {
+        Member[] copy = members.clone();
 
-        return new Member[0];
+        for (int i = 0; i < copy.length; i++) {
+            if (copy[i] == null) {
+                break;
+            }
+
+            for (int j = 0; j < i; j++) {
+                if (copy[i].getGender() > copy[j].getGender()) {
+                    Member temp = copy[i];
+                    copy[i] = copy[j];
+                    copy[j] = temp;
+                }
+            }
+        }
+
+        return copy;
     }
 
 }
