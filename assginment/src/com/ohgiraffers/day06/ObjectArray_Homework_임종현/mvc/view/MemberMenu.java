@@ -10,11 +10,11 @@ public class MemberMenu {
     private Scanner sc = new Scanner(System.in);
 
     public void mainMenu() {
-        System.out.print("===== 회원 관라 메뉴 =====\n1. 신규 회원 등록\n2. 회원 정보 검색\n3. 회원 정보 수정\n" +
-                "4. 회원 정보 삭제\n5. 회원 정보 출력\n6. 회원 정보 정렬\n9. 프로그램 종료\n입력 >");
-        int index = sc.nextInt();
-
         while (true) {
+            System.out.print("===== 회원 관라 메뉴 =====\n1. 신규 회원 등록\n2. 회원 정보 검색\n3. 회원 정보 수정\n" +
+                    "4. 회원 정보 삭제\n5. 회원 정보 출력\n6. 회원 정보 정렬\n9. 프로그램 종료\n입력 >");
+            int index = sc.nextInt();
+
             switch (index) {
                 case 1:
                     insertMember();
@@ -29,7 +29,7 @@ public class MemberMenu {
                     deleteMember();
                     break;
                 case 5:
-                    printAllMember();
+                     printAllMember();
                     break;
                 case 6:
                     sortMember();
@@ -147,8 +147,13 @@ public class MemberMenu {
 
     public void printAllMember() {
         Member[] members = mc.getMembers();
+
         for (Member member : members) {
-            member.information();
+            if (member == null) {
+                break;
+            }
+
+            System.out.println(member.information());
         }
     }
 

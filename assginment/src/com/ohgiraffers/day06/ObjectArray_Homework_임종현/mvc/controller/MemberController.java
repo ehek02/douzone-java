@@ -29,7 +29,12 @@ public class MemberController {
     public Member checkId(String userid) {
         Member member;
 
+
         for (Member param : members) {
+            if (param == null) {
+                break;
+            }
+
             if (param.getUserId().equals(userid)) {
                 member = new Member(param.getUserId(), param.getUserPwd(), param.getName(), param.getAge(), param.getGender(), param.getEmail());
                 return member;
@@ -50,6 +55,10 @@ public class MemberController {
         switch (menu) {
             case 1:
                 for (Member member : members) {
+                    if (member == null) {
+                        break;
+                    }
+
                     if (member.getUserId().equals(search)) {
                         searchMember = new Member(member.getUserId(), member.getUserPwd(), member.getName(), member.getAge(), member.getGender(), member.getEmail());
                     }
@@ -57,6 +66,10 @@ public class MemberController {
                 break;
             case 2:
                 for (Member member : members) {
+                    if (member == null) {
+                        break;
+                    }
+
                     if (member.getName().equals(search)) {
                         searchMember = new Member(member.getUserId(), member.getUserPwd(), member.getName(), member.getAge(), member.getGender(), member.getEmail());
                     }
@@ -64,6 +77,10 @@ public class MemberController {
                 break;
             case 3:
                 for (Member member : members) {
+                    if (member == null) {
+                        break;
+                    }
+
                     if (member.getEmail().equals(search)) {
                         searchMember = new Member(member.getUserId(), member.getUserPwd(), member.getName(), member.getAge(), member.getGender(), member.getEmail());
                     }
@@ -79,6 +96,9 @@ public class MemberController {
             case 1:
                 member.setUserPwd(update);
                 for (int i = 0; i < members.length; i++) {
+                    if (members[i] == null) {
+                        break;
+                    }
                     if (member.getUserId().equals(members[i].getUserId())) {
                         members[i] = member;
                     }
@@ -87,6 +107,9 @@ public class MemberController {
             case 2:
                 member.setName(update);
                 for (int i = 0; i < members.length; i++) {
+                    if (members[i] == null) {
+                        break;
+                    }
                     if (member.getUserId().equals(members[i].getUserId())) {
                         members[i] = member;
                     }
@@ -95,6 +118,9 @@ public class MemberController {
             case 3:
                 member.setEmail(update);
                 for (int i = 0; i < members.length; i++) {
+                    if (members[i] == null) {
+                        break;
+                    }
                     if (member.getUserId().equals(members[i].getUserId())) {
                         members[i] = member;
                     }
@@ -104,16 +130,22 @@ public class MemberController {
     }
 
     public void deleteMember(String userId) {
-        for (int i = 0; i < members.length; i++) {
+        for (int i = 0; i < memberCount; i++) {
             if (members[i].getUserId().equals(userId)) {
-                // TODO : array 삭제 구현
+                members[i] = null; // 삭제
+
+                // 땡기기
+                for (int j = i; j < members.length-1; j++) {
+                    members[j] = members[j+1];
+                }
+
+                memberCount--;
             }
         }
     }
 
     public Member[] sortIdAsc() {
         Member[] copy = members.clone();
-
 
         return copy;
     }

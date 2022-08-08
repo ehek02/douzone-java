@@ -22,7 +22,12 @@ public class Member {
     }
 
     public String information() {
-        return null;
+        return  userId +
+                ", " + userPwd +
+                ", " + name +
+                ", " + age +
+                ", " + gender +
+                ", " + email;
     }
 
     public String getUserId() {

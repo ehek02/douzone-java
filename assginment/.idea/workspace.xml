@@ -1,43 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a029717-917a-430b-9696-a1bb1cf78e97" name="변경" comment="day5 assignment complete">
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/Inherit_Homework_임종현/com/hw1/model/dto/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/Inherit_Homework_임종현/com/hw1/model/dto/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/Inherit_Homework_임종현/com/hw1/model/dto/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/Inherit_Homework_임종현/com/hw1/run/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/Inherit_Homework_임종현/com/hw2/model/dto/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/Inherit_Homework_임종현/com/hw2/model/dto/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/Inherit_Homework_임종현/com/hw2/model/dto/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/Inherit_Homework_임종현/com/hw2/run/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/ObjectArray_Homework_임종현/hw1/model/dto/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/ObjectArray_Homework_임종현/hw1/run/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/ObjectArray_Homework_임종현/hw2/model/dto/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/ObjectArray_Homework_임종현/hw2/run/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/ObjectArray_Homework_임종현/mvc/controller/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/ObjectArray_Homework_임종현/mvc/model/dto/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/ObjectArray_Homework_임종현/mvc/run/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/ObjectArray_Homework_임종현/mvc/view/MemberMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/.idea/class.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day05/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day05/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day05/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day05/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day05/day05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day05/src/forexam/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day05/src/forexam/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day05/src/test/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day05/src/test/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day05/src/test/Tire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day05/src/test/Vehicle.java" afterDir="false" />
+    <list default="true" id="9a029717-917a-430b-9696-a1bb1cf78e97" name="변경" comment="day6 assignment complete !!  (sort, delete 제외)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../class/day01/day01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../class/day01/day01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../class/day02/day02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../class/day02/day02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../class/day03/day03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../class/day03/day03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../class/day04/day04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../class/day04/day04.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/day06/ObjectArray_Homework_임종현/mvc/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/ObjectArray_Homework_임종현/mvc/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/day06/ObjectArray_Homework_임종현/mvc/model/dto/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/ObjectArray_Homework_임종현/mvc/model/dto/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/day06/ObjectArray_Homework_임종현/mvc/view/MemberMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day06/ObjectArray_Homework_임종현/mvc/view/MemberMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,26 +49,13 @@
       <recent name="C:\Users\whdgu\Desktop\git\ehek02\douzone-java\assginment\src\com\ohgiraffers" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.com.ohgiraffers.day06.Inherit_Homework_임종현.com.hw2.run.Run">
+  <component name="RunManager" selected="애플리케이션.com.ohgiraffers.day06.ObjectArray_Homework_임종현.mvc.run.Run">
     <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.day06.ObjectArray_Homework_임종현.hw1.run.Run" />
       <module name="assginment" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ohgiraffers.day06.ObjectArray_Homework_임종현.hw1.run.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.ohgiraffers.day05.level03.hard.emp.run.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.day05.level03.hard.emp.run.Application" />
-      <module name="assginment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ohgiraffers.day05.level03.hard.emp.run.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.ohgiraffers.day06.ObjectArray_Homework_임종현.mvc.run.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.day06.ObjectArray_Homework_임종현.mvc.run.Run" />
+      <module name="assginment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.day06.ObjectArray_Homework_임종현.mvc.run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.com.ohgiraffers.day06.ObjectArray_Homework_임종현.mvc.run.Run" />
         <item itemvalue="애플리케이션.com.ohgiraffers.day06.Inherit_Homework_임종현.com.hw2.run.Run" />
         <item itemvalue="애플리케이션.com.ohgiraffers.day06.Inherit_Homework_임종현.com.hw1.run.Run" />
         <item itemvalue="애플리케이션.Run" />
         <item itemvalue="애플리케이션.com.ohgiraffers.day05.level04.advaced.shape.run.Application" />
-        <item itemvalue="애플리케이션.com.ohgiraffers.day05.level03.hard.emp.run.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +137,7 @@
       <workItem from="1659525156535" duration="164000" />
       <workItem from="1659598160628" duration="10755000" />
       <workItem from="1659659762249" duration="19858000" />
-      <workItem from="1659942943384" duration="12759000" />
+      <workItem from="1659942943384" duration="14527000" />
     </task>
     <task id="LOCAL-00001" summary="3장 완료">
       <created>1659520333045</created>
@@ -206,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659690957975</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="day6 assignment complete !!  (sort, delete 제외)">
+      <created>1659964802549</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659964802549</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +203,18 @@
     <MESSAGE value="08/03 finish" />
     <MESSAGE value="08/03 finish !!" />
     <MESSAGE value="day5 assignment complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="day5 assignment complete" />
+    <MESSAGE value="day6 assignment complete !!  (sort, delete 제외)" />
+    <option name="LAST_COMMIT_MESSAGE" value="day6 assignment complete !!  (sort, delete 제외)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ohgiraffers/day06/ObjectArray_Homework_임종현/mvc/controller/MemberController.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
