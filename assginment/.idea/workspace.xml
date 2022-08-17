@@ -1,61 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a029717-917a-430b-9696-a1bb1cf78e97" name="변경" comment="NPE 처리완료">
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/API_Homework_임종현/hw1/controller/TokenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/API_Homework_임종현/hw1/run/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/API_Homework_임종현/hw1/view/TokenMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/API_Homework_임종현/hw2/controller/SpaceUpper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/API_Homework_임종현/hw2/run/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/API_Homework_임종현/hw3/contoller/SetDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/API_Homework_임종현/hw3/run/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/mvc/controller/LibraryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/mvc/model/dto/AniBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/mvc/model/dto/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/mvc/model/dto/CookBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/mvc/model/dto/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/mvc/run/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/mvc/view/LibraryMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/practice2/model/dto/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/practice2/model/dto/CellPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/practice2/model/dto/GalaxyNote9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/practice2/model/dto/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/practice2/model/dto/SmartPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/practice2/model/dto/TouchDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/practice2/model/dto/V40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/practice2/run/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/practice3/controller/AnimalManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/practice3/mdoel/dto/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/practice3/mdoel/dto/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day07/Polymorpism_Homework_임종현/practice3/mdoel/dto/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day08/controller/BookManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day08/domain/dto/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day08/run/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/day08/view/BookMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day06/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day06/src/main/java/org/example/abstrc/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day06/src/main/java/org/example/temp/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day06/src/main/java/org/example/temp/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day06/src/main/java/org/example/temp/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day06/src/main/java/org/example/temp/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day07/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day07/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day07/src/main/java/org/example/test2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day07/src/main/java/org/example/test2/요리사.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day07/src/main/java/org/example/test2/홍길동.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day07/src/main/java/org/example/제네릭/GenericApp1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day07/src/main/java/org/example/제네릭/domain/GenericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day07/src/main/java/org/example/제네릭/test/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day07/src/main/java/org/example/제네릭/test/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day07/src/main/java/org/example/제네릭/test/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day07/src/main/java/org/example/제네릭/test/Main.java" afterDir="false" />
+    <list default="true" id="9a029717-917a-430b-9696-a1bb1cf78e97" name="변경" comment="day07 (hw4, hw5, hw6) 해야함.">
+      <change afterPath="$PROJECT_DIR$/../class/day09/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day09/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day09/src/main/java/org/example/file/FileByteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day09/src/main/java/org/example/file/run/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day09/src/main/java/snc/Snc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day09/src/main/java/snc2/server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day09/src/main/resources/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/sort/Application3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/sort/Application4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/sort/Application5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../class/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../class/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../class/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -206,7 +161,8 @@
       <workItem from="1659942943384" duration="16259000" />
       <workItem from="1660029181558" duration="4648000" />
       <workItem from="1660093687215" duration="487000" />
-      <workItem from="1660119618035" duration="11364000" />
+      <workItem from="1660119618035" duration="12835000" />
+      <workItem from="1660223337069" duration="1628000" />
     </task>
     <task id="LOCAL-00001" summary="3장 완료">
       <created>1659520333045</created>
@@ -257,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659966532805</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="day07 (hw4, hw5, hw6) 해야함.">
+      <created>1660142655902</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660142655902</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +244,7 @@
     <MESSAGE value="day5 assignment complete" />
     <MESSAGE value="day6 assignment complete !!  (sort, delete 제외)" />
     <MESSAGE value="NPE 처리완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="NPE 처리완료" />
+    <MESSAGE value="day07 (hw4, hw5, hw6) 해야함." />
+    <option name="LAST_COMMIT_MESSAGE" value="day07 (hw4, hw5, hw6) 해야함." />
   </component>
 </project>
