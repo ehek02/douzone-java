@@ -2,16 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a029717-917a-430b-9696-a1bb1cf78e97" name="변경" comment="day07 (hw4, hw5, hw6) 해야함.">
-      <change afterPath="$PROJECT_DIR$/../class/day09/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day09/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day09/src/main/java/org/example/file/FileByteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day09/src/main/java/org/example/file/run/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day09/src/main/java/snc/Snc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day09/src/main/java/snc2/server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class/day09/src/main/resources/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/ArrayList_Homework_임종현/controller/BookManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/ArrayList_Homework_임종현/model/dto/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/ArrayList_Homework_임종현/run/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/ArrayList_Homework_임종현/view/BookMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/IO_Homework_임종현/hw1/files/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/IO_Homework_임종현/hw1/files/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/IO_Homework_임종현/hw1/model/dao/FileDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/IO_Homework_임종현/hw1/run/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/IO_Homework_임종현/hw2/controller/BookManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/IO_Homework_임종현/hw2/files/books.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/IO_Homework_임종현/hw2/model/dto/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/IO_Homework_임종현/hw2/run/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/exception_homework_임종현/hw1/controller/RideController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/exception_homework_임종현/hw1/model/dto/Guests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/exception_homework_임종현/hw1/model/dto/RollerCoaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/exception_homework_임종현/hw1/run/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/.idea/artifacts/day12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day12/src/main/java/org/example/lambda/funcinal/A_FuncInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day12/src/main/java/org/example/lambda/funcinal/B_FuncInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day12/src/main/java/org/example/lambda/funcinal/B_Functional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day12/src/main/java/org/example/lambda/funcinal/C_FuncInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day12/src/main/java/org/example/network/ReceiveThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/day12/src/main/java/org/example/network/SendThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../class/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../class/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../class/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../class/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/day07/API_Homework_임종현/hw1/controller/TokenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ohgiraffers/API_Homework_임종현/hw1/controller/TokenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/day07/API_Homework_임종현/hw1/run/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ohgiraffers/API_Homework_임종현/hw1/run/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/day07/API_Homework_임종현/hw1/view/TokenMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ohgiraffers/API_Homework_임종현/hw1/view/TokenMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/day07/API_Homework_임종현/hw2/controller/SpaceUpper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ohgiraffers/API_Homework_임종현/hw2/controller/SpaceUpper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/day07/API_Homework_임종현/hw2/run/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ohgiraffers/API_Homework_임종현/hw2/run/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/day07/API_Homework_임종현/hw3/contoller/SetDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ohgiraffers/API_Homework_임종현/hw3/contoller/SetDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/day07/API_Homework_임종현/hw3/run/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ohgiraffers/API_Homework_임종현/hw3/run/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class/day12/src/main/java/org/example/lambda/Lambda1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../class/day12/src/main/java/org/example/lambda/basic/Lambda1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class/day12/src/main/java/org/example/lambda/run/App1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../class/day12/src/main/java/org/example/lambda/run/App1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class/day12/src/main/java/org/example/network/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../class/day12/src/main/java/org/example/network/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class/day12/src/main/java/org/example/network/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../class/day12/src/main/java/org/example/network/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class/day12/src/main/java/org/example/network/run/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +69,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -50,11 +77,12 @@
     &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ohgiraffers.IO_Homework_임종현_.hw1.run" />
       <recent name="com.ohgiraffers.day07.Polymorpism_Homework_임종현.mvc.model.dto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -70,26 +98,13 @@
       <command value="open ." />
     </option>
   </component>
-  <component name="RunManager" selected="애플리케이션.com.ohgiraffers.day07.API_Homework_임종현.hw3.run.Run">
-    <configuration name="AnimalManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.day07.Polymorpism_Homework_임종현.practice3.controller.AnimalManager" />
-      <module name="assginment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ohgiraffers.day07.Polymorpism_Homework_임종현.practice3.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.com.ohgiraffers.ArrayList_Homework_임종현.run.Run">
     <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.day07.API_Homework_임종현.hw1.run.Run" />
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.exception_homework_임종현.hw1.run.Run" />
       <module name="assginment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ohgiraffers.day07.API_Homework_임종현.hw1.run.*" />
+          <option name="PATTERN" value="com.ohgiraffers.exception_homework_임종현.hw1.run.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.ohgiraffers.day07.API_Homework_임종현.hw2.run.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.day07.API_Homework_임종현.hw2.run.Run" />
+    <configuration name="com.ohgiraffers.API_Homework_임종현.hw3.run.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.API_Homework_임종현.hw3.run.Run" />
       <module name="assginment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ohgiraffers.day07.API_Homework_임종현.hw2.run.*" />
+          <option name="PATTERN" value="com.ohgiraffers.API_Homework_임종현.hw3.run.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.ohgiraffers.day07.API_Homework_임종현.hw3.run.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.day07.API_Homework_임종현.hw3.run.Run" />
+    <configuration name="com.ohgiraffers.ArrayList_Homework_임종현.run.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.ArrayList_Homework_임종현.run.Run" />
       <module name="assginment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ohgiraffers.day07.API_Homework_임종현.hw3.run.*" />
+          <option name="PATTERN" value="com.ohgiraffers.ArrayList_Homework_임종현.run.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +138,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.ohgiraffers.day08.run.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.day08.run.Run" />
+    <configuration name="com.ohgiraffers.IO_Homework_임종현.hw1.run.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.IO_Homework_임종현.hw1.run.Run" />
       <module name="assginment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ohgiraffers.day08.run.*" />
+          <option name="PATTERN" value="com.ohgiraffers.IO_Homework_임종현.hw1.model.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.ohgiraffers.IO_Homework_임종현.hw2.run.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.IO_Homework_임종현.hw2.run.Run" />
+      <module name="assginment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.IO_Homework_임종현.hw2.run.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.com.ohgiraffers.day07.API_Homework_임종현.hw3.run.Run" />
-        <item itemvalue="애플리케이션.com.ohgiraffers.day08.run.Run" />
-        <item itemvalue="애플리케이션.com.ohgiraffers.day07.API_Homework_임종현.hw2.run.Run" />
+        <item itemvalue="애플리케이션.com.ohgiraffers.ArrayList_Homework_임종현.run.Run" />
+        <item itemvalue="애플리케이션.com.ohgiraffers.IO_Homework_임종현.hw2.run.Run" />
+        <item itemvalue="애플리케이션.com.ohgiraffers.IO_Homework_임종현.hw1.run.Run" />
         <item itemvalue="애플리케이션.Run" />
-        <item itemvalue="애플리케이션.AnimalManager" />
+        <item itemvalue="애플리케이션.com.ohgiraffers.API_Homework_임종현.hw3.run.Run" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +191,11 @@
       <workItem from="1660093687215" duration="487000" />
       <workItem from="1660119618035" duration="12835000" />
       <workItem from="1660223337069" duration="1628000" />
+      <workItem from="1660898914389" duration="425000" />
+      <workItem from="1661389653241" duration="1621000" />
+      <workItem from="1661391483537" duration="4808000" />
+      <workItem from="1661401720892" duration="480000" />
+      <workItem from="1661402467084" duration="8143000" />
     </task>
     <task id="LOCAL-00001" summary="3장 완료">
       <created>1659520333045</created>
@@ -238,6 +271,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="3장 완료" />
     <MESSAGE value="08/03 finish" />
     <MESSAGE value="08/03 finish !!" />
